@@ -8,7 +8,8 @@
       {{ end }}
       <div class="btn-group">
         <a class="btn-primary" href="{{ "about/" | relURL }}">About</a>
-        <a class="btn-secondary" href="{{ "projects/" | relURL }}">Projects</a>
+        <a class="btn-secondary" href="{{ "career/" | relURL }}">Career</a>
+        <a class="btn-secondary" href="{{ "ned/" | relURL }}">NED</a>
       </div>
     </div>
     <div class="hero-owner">
@@ -62,6 +63,7 @@
     {{ end }}
     <a class="btn-secondary see-more" href="{{ "posts/" | relURL }}">More Posts</a>
   </section>
+  <!--
   <section class="section">
     <h2 class="home-section-title">
       {{- with .Params.projects_section_heading -}}
@@ -81,5 +83,6 @@
       {{ partial "general/fallback-text.html" . }}
     {{ end }}
   </section>
+  -->
 </div>
 {{ end }}
